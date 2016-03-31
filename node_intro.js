@@ -67,10 +67,9 @@ app.get('/ruta/lo/que/queremos', function(req, res){
     });
 });
 
-/*  JSON: takes stuff from JS and turns them into stirngs so that you can send them via
+/*  JSON: takes stuff from JS and turns them into stirngs so that you can               send them via
           petitions.
     req: "request" this can be named anything you want.
-    res: "response" This can also be called whatever you want. These names just make it easier to
-                    read.
+    res: "response" This can also be called whatever you want. These names         just make it easier to read.
     req.query is the same as ===> {table: 'value('whatever values in here')}
     
